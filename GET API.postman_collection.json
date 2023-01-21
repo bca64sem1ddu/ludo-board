@@ -1,0 +1,93 @@
+{
+	"info": {
+		"_postman_id": "47bcc4fb-4254-4f97-b6ef-70ea96d43d44",
+		"name": "GET API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20762896"
+	},
+	"item": [
+		{
+			"name": "User Meta",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/testseo/user/tariq",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"testseo",
+						"user",
+						"tariq"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User Followers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/testseo/follower/user/aakash",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"testseo",
+						"follower",
+						"user",
+						"aakash"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User NFT",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/testseo/nft/user/aakash",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"testseo",
+						"nft",
+						"user",
+						"aakash"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User Following",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/testseo/following/user/aakash",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"testseo",
+						"following",
+						"user",
+						"aakash"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
